@@ -1,0 +1,8 @@
+f = open('names.txt','r')
+file_names = f.read()
+f.close()
+print(file_names)
+f2 = open('names2.txt','w')
+file_names2=f2.write("Hello_World")
+f.close()
+print(file_names2)
